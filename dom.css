@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255, 249, 249);
+    display: grid;
+    place-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav .fas{
+    font-size: 2rem;
+    margin-right: 375px;
+}
+
+.nav h1{
+    padding-left: 375px;
+}
+
+.panier{
+    padding-top: 40px;
+    font-family: sans-serif;
+}
+
+.contener{ 
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.element{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 40px 20px;
+    border-bottom: thin solid #dddddd;
+    gap: 20px;
+}
+
+.element:last-of-type{
+    border: none;
+}
+
+.element img{
+    width: 10%;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.retirer{
+    text-decoration: none;
+    color: #cecdcd;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 65%;
+    gap: 20px;
+}
+
+.btn div{
+    display: flex;
+}
+
+.btn button{
+    padding: 10px;
+    border: none;
+}
+
+.qte{
+    width: 0.85rem;
+    padding: 8.5px;
+    background-color: #efefef;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-top: none;
+    border-bottom: none;
+}
+
+.qte:focus{
+    outline: none;
+}
+
+.fa-heart{
+    color: #dddddd;
+    transition: all 300ms ease-in-out;
+}
+
+.fa-heart, .zid, .nguess{
+    cursor: pointer;
+}
+
+.red{
+    color: red; 
+}
+
+.total{
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.total h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+ 
+
+
